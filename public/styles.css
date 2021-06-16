@@ -5,3 +5,34 @@ html body {
 h1 {
   color: #D45152;
 }
+
+.navbar-brand {
+  /* font-family: 'Bungee Shade', cursive; */
+  font-family: 'Creepster', cursive;
+}
+
+.nav-link {
+  font-family: 'Creepster', cursive;
+}
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: #F6ECEA;
+}
+
+/* Modify text color */
+.navbar-custom .navbar-text {
+    color: #D45152;
+}
+
+/* Modify text color */
+.navbar-custom .navbar-toggler {
+    color: #D45152;
+}
+
+.nav-link{
+  margin: 10px 20px;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
